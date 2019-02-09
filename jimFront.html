@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/jimStyle.css') }}">
+    <meta charset="UTF-8">
+    <title>Jim</title>
+</head>
+<body>
+<div id ="botFace">
+</div>
+<div id="botOutput">
+</div>
+
+<div id="botInput">
+    <input type="text" id="inputText" value="">
+    <button id="sendButton" onclick="messageGenerator()"> Send </button>
+</div>
+
+
+
+<script type=text/javascript src = "{{ url_for('static', filename='js/script.js') }}"> </script>
+</body>
+</html>
